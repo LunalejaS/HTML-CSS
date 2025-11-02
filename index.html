@@ -1,0 +1,87 @@
+<!-- 1:09:31  https://www.youtube.com/watch?v=3nYLTiY5skU&t=57s -->
+
+<!-- Nodo para especificar la versión de HTML que usaremos -->
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8"> <!-- codificación por usar -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- El ancho del contenido se adapta al ancho de la pantalla -->
+        <title>Lunaleja</title> <!-- Título de la página -->
+        
+        <meta name="robots" content="index, follow"> <!-- Instrucciones para los motores de búsqueda -->
+        <meta name="author" content="Luna A. Sandoval"> <!-- Autor de la página -->
+        <meta name="language" content="es"> <!-- Idioma de la página -->
+        <meta name="description" content="Luna A. Sandoval - Systems Engineer Student"> <!-- Descripción de la página -->
+        
+        <link rel="icon" href="imges/miFoto.jpeg" type="image/jpeg"> <!-- Ícono de la página -->
+        
+        <!-- OPEN GRAPH -->
+        <meta property="og:title" content="Lunaleja"> <!-- Título para compartir en redes sociales -->
+        <meta property="og:description" content="Luna A. Sandoval - Systems Engineer Student"> <!-- Descripción para compartir en redes sociales -->
+        <meta property="og:image" content="imges/miFoto.jpeg"> <!-- Imagen para compartir en redes sociales -->
+        <meta prperty="og:image:alt" content="fotografía de Luna A. Sandoval"> <!-- Texto alternativo de la imagen -->
+        <meta property="og:type" content="website"> <!-- Tipo de contenido -->
+        
+        <!-- Otras etiquetas importantes SEO (optimización para buscadores) -->
+        <link rel="alternative" href="https://lunaleja/en" hreflang="en"> <!-- Versión en otro idioma -->
+        <link rel="canonical" href="https://lunaleja.com"> <!-- URL canónica -->
+    </head>
+    <body>
+        <header>
+            <h1>Luna A. Sandoval</h1>
+            <!-- Navegación -->
+            <nav>
+                <!-- Enlaces de navegación internos -->
+                <a href="#experiencia">Experiencia</a>
+                <a href="#proyectos">Proyectos</a>
+                <!-- Enlace de navegación externo -->
+                <a href="https://www.instagram.com/xoxo.lunaleja/" target="_blank" rel="noreferrer">Instagram</a>
+            </nav>
+            <div id="sobre-mi">
+                <p>¡Holaa!</p>
+                <p>Soy <em>Luna</em>, una <strong>Estudiante de Ingeniería de Sistemas</strong> que ama aprender cosas nuevas.</p>
+            </div>
+            <div>
+                <img id="photo-perfil-Luna" title="Luna" src="imges/miFoto.jpeg" alt="Un fotografía de Luna A. Sandoval" height="200"/>
+            </div>
+        </header>
+        <main>
+            <h2 id="experiencia">Mi experiencia</h2>
+            <p>Por el momento no cuento con experiencia laboral formal. Sin embargo, he aportado en cosas como:</p>
+            <ol>
+                <li class="habilities">Tutorías de temas relacionados a matemáticas y lógica.</li>
+                <li class="habilities">El desarrollo de actividades sociales en mi Universidad.</li>
+            </ol>
+
+            <section>
+            <h2 id="proyectos">Algunos de mis Proyectos</h2>
+                <article>
+                    <header>
+                        <h4>Servicio CRUD</h4>
+                        <p>Desarrollo de un cliente que consume datos de TheMealDB en NestJS que permite realizar operaciones CRUD sobre un catalogo de comidas. Además de realizar pruebas al preparar una colección con todo los endpoints y ejemplos de peticiones en Postman.</p>
+                    </header>
+                    <footer>
+                        <small><em>Tecnologías utilizadas:</em> TypeScript, Node.js, UUID, Axios.</small>
+                    </footer>
+                </article>
+            </section>
+
+            <!-- 'aside' se usa para referenciar contenido que esta relacionado con el contenido principal de una manera INDIRECTA-->
+            <aside>
+                <header>
+                    <h3>My favorites technologies:</h3>
+                </header>
+                <footer>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>Nest.js</li>
+                    </ol>
+            </aside>
+        </main>
+        <footer>
+            <small>&COPY; 2025 - Lunaleja portafolio</small>
+        </footer>
+    </body>
+</html>
